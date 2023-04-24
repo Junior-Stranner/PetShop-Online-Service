@@ -4,7 +4,7 @@ public class Pet {
 	
 	private int codigo;
 	private String raca;
-	private Long dataNascimento;
+	private Long dataNascimentoPet;
 	private String cor;
 	private double peso;
 	private Long dataVacina;
@@ -16,11 +16,11 @@ public class Pet {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Pet(int codigo, String raca, Long dataNascimento, String cor, double peso, Long dataVacina, String tipoVacina) {
+	public Pet(int codigo, String raca, Long dataNascimentoPet, String cor, double peso, Long dataVacina, String tipoVacina) {
 		super();
 		this.codigo = codigo;
 		this.raca = raca;
-		this.dataNascimento = dataNascimento;
+		this.dataNascimentoPet = dataNascimentoPet;
 		this.cor = cor;
 		this.peso = peso;
 		this.dataVacina = dataVacina;
@@ -38,11 +38,11 @@ public class Pet {
 	public void setRaca(String raca) {
 		this.raca = raca;
 	}
-	public Long getDataNascimento() {
-		return dataNascimento;
+	public Long getDataNascimentoPet() {
+		return dataNascimentoPet;
 	}
-	public void setDataNascimento(Long dataNascimento) {
-		this.dataNascimento = dataNascimento;
+	public void setDataNascimentoPet(Long dataNascimentoPet) {
+		this.dataNascimentoPet = dataNascimentoPet;
 	}
 	public String getCor() {
 		return cor;

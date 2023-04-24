@@ -5,20 +5,10 @@ import java.util.Date;
 public class Dono {
 
 	private String nome;
-	private int codigo;
+	private int codigoDono;
 	private String apelido;
-	private Long dataNascimento;
-	private  String pet;
-	
-	/*public String mostrarDono() {
-		return " \n Código : "+codigo
-				+ "\n nome :"+nome
-				+ "\n Apelido :"+apelido 
-				+ "\n Data der Nascimento :"+dataNascimento
-				+ "\n Pets : "+pet;
-		
-		
-	}*/
+	private Long dataNascimentoDono;
+	private  String animal;
 	
 	
 	public Dono() {
@@ -27,13 +17,13 @@ public class Dono {
 	}
 
 
-	public Dono(String nome, int codigo, String apelido, Long dataNascimento, String pet) {
+	public Dono(String nome, int codigoDono, String apelido, Long dataNascimentoDono, String animal) {
 		super();
 		this.nome = nome;
-		this.codigo = codigo;
+		this.codigoDono = codigoDono;
 		this.apelido = apelido;
-		this.dataNascimento = dataNascimento;
-		this.pet = pet;
+		this.dataNascimentoDono = dataNascimentoDono;
+		this.animal = animal;
 	}
 
 
@@ -47,13 +37,13 @@ public class Dono {
 	}
 
 
-	public int getCodigo() {
-		return codigo;
+	public int getCodigoDono() {
+		return codigoDono;
 	}
 
 
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
+	public void setCodigoDono(int codigoDono) {
+		this.codigoDono = codigoDono;
 	}
 
 
@@ -67,22 +57,22 @@ public class Dono {
 	}
 
 
-	public Long getDataNascimento() {
-		return dataNascimento;
+	public Long getDataNascimentoDono() {
+		return dataNascimentoDono;
 	}
 
 
-	public void setDataNascimento(Long dataNascimento) {
-		this.dataNascimento = dataNascimento;
+	public void setDataNascimentoDono(Long dataNascimentoDono) {
+		this.dataNascimentoDono = dataNascimentoDono;
 	}
 
 
-	public String getPet() {
-		return pet;
+	public String getAnimal() {
+		return animal;
 	}
 
 
-	public void setPet(String pet) {
-		this.pet = pet;
+	public void setAnimal(String animal) {
+		this.animal = animal;
 	}
 }
